@@ -37,7 +37,7 @@
     </style>
   </head>
   <body class="font-manrope">
-    <header class="ml-32 mt-14 mr-12 mb-10 flex flex-1 hidden">
+    <header class="ml-32 mt-14 mr-12 mb-10 flex flex-1">
       <div class="banner-title">
         <h2 class="text-[#1C1C1C] text-7xl font-extrabold mb-7">
           It's good <br />tea time at The <br />Tea House
@@ -85,7 +85,7 @@
     </header>
     <main class="mx-32 mt-32">
       <!-- Feature Products section -->
-      <section class="my-10 hidden">
+      <section class="my-10">
         <div class="text-center mb-12">
           <h2 class="text-[#1C1C1C] text-5xl font-extrabold mb-5">
             Our Featured Products
@@ -145,7 +145,7 @@
         </div>
       </section>
       <!-- Great Tea Section -->
-      <section class="hidden">
+      <section class="">
         <div class="grid grid-cols-2 gap-12 my-32">
           <!-- Great Tea Image -->
           <div class="grid grid-cols-2 grid-rows-3 gap-7">
@@ -198,23 +198,41 @@
         <div
           class="grid grid-cols-2 bg-gradient-to-r from-[#FF8838] to-[#FF0100] rounded-xl"
         >
-          <div class="w-5/6 py-28 pl-20">
-            <h2 class="font-extrabold text-5xl text-[#F4F4F4] mb-5">
-              Meet Our Super Clients
-            </h2>
-            <p class="font-medium text-base text-[#F4F4F4] mb-7">
-              There are many variations of passages of Lorem Ipsum available,
-              but the majority have suffered alteration in some form, by
-              injected humour, or randomised words which don't look even
-              slightly believable.
-            </p>
-            <button
-              class="text-xl font-bold text-orange-700 bg-white px-7 py-3 rounded-lg"
-            >
-              Show All
-            </button>
+          <div class="flex items-center">
+            <div class="w-5/6 py-28 pl-20">
+              <h2 class="font-extrabold text-5xl text-[#F4F4F4] mb-5">
+                Meet Our Super Clients
+              </h2>
+              <p class="font-medium text-base text-[#F4F4F4] mb-7">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour, or randomised words which don't look even
+                slightly believable.
+              </p>
+              <button
+                class="text-xl font-bold text-orange-700 bg-white px-7 py-3 rounded-lg"
+              >
+                Show All
+              </button>
+            </div>
           </div>
-          <div class="my-20">
+          <div class="relative my-20">
+            <!-- Middle card -->
+            <div class="absolute z-10 max-w-sm top-32 -left-8">
+              <div class="bg-white rounded-lg px-8 pt-9 pb-7">
+                <img
+                  class="absolute -top-7 -left-5 rounded-full p-1 bg-white"
+                  src="images/client.png"
+                  alt=""
+                />
+                <p class="text-base text-[#777777] mb-5">
+                  We are providing the best and suitable home insurance services
+                  for the people who are interested to treatment
+                </p>
+                <h4 class="font-bold text-base text-[#1C1C1C]">Ilham Yuda</h4>
+                <p class="font-medium text-[#5D5A6F]">Businessman</p>
+              </div>
+            </div>
             <!-- Top card -->
             <div
               class="relative bg-white w-3/4 rounded-lg px-8 pt-9 pb-7 left-20 opacity-40 mb-14"
