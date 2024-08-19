@@ -37,7 +37,7 @@
     </style>
   </head>
   <body class="font-manrope">
-    <header class="ml-32 mt-14 mr-12 mb-10 flex flex-1">
+    <header class="ml-32 mt-14 mr-12 mb-10 flex flex-1 hidden">
       <div class="banner-title">
         <h2 class="text-[#1C1C1C] text-7xl font-extrabold mb-7">
           It's good <br />tea time at The <br />Tea House
@@ -84,7 +84,8 @@
       </div>
     </header>
     <main class="mx-32 mt-32">
-      <section class="my-10">
+      <!-- Feature Products section -->
+      <section class="my-10 hidden">
         <div class="text-center mb-12">
           <h2 class="text-[#1C1C1C] text-5xl font-extrabold mb-5">
             Our Featured Products
@@ -143,7 +144,8 @@
           </div>
         </div>
       </section>
-      <section>
+      <!-- Great Tea Section -->
+      <section class="hidden">
         <div class="grid grid-cols-2 gap-12 my-32">
           <!-- Great Tea Image -->
           <div class="grid grid-cols-2 grid-rows-3 gap-7">
@@ -189,6 +191,30 @@
               you use it.
             </p>
           </div>
+        </div>
+      </section>
+      <!-- Super Client Section  -->
+      <section>
+        <div
+          class="grid grid-cols-2 bg-gradient-to-r from-[#FF8838] to-[#FF0100] rounded-xl"
+        >
+          <div class="w-5/6 py-28 pl-20">
+            <h2 class="font-extrabold text-5xl text-[#F4F4F4] mb-5">
+              Meet Our Super Clients
+            </h2>
+            <p class="font-medium text-base text-[#F4F4F4] mb-7">
+              There are many variations of passages of Lorem Ipsum available,
+              but the majority have suffered alteration in some form, by
+              injected humour, or randomised words which don't look even
+              slightly believable.
+            </p>
+            <button
+              class="text-xl font-bold text-orange-700 bg-white px-7 py-3 rounded-lg"
+            >
+              Show All
+            </button>
+          </div>
+          <div></div>
         </div>
       </section>
     </main>
